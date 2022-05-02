@@ -21,7 +21,7 @@ public class Principal {
 		
 		// laço de repetição que irá verificar se a dificuldade escolhida é valida, criara os jogadores e
 		// chamara o metodo "jogar" da classe tabuleiro.
-		while(dificuldade != 0 || dificuldade != 1 || dificuldade != 2 || dificuldade != 3) {
+		while(true) {
 			if (dificuldade == 0) {
 				System.out.println("Você escolheu a Dificuldade 0 e jogará contra o Player 2");
 				Jogar j1 = new JogadorHumano("1",0); //Cria o player 1 "j1" que fica definido como jogador 1
